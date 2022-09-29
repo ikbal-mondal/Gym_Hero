@@ -1,0 +1,49 @@
+[
+  {
+    
+    "img": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "champ1",
+    "Time": " 3min ",
+    "date": "20/36",
+    "id": "54f-gf5-4d-g66f-dg5-65f-gd35"    
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "champ2",
+    "Time": " 2min ",
+    "date": "19/23",
+    "id": "jkh-jk-jf54fdg85fd-56fgd"
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGZpdG5lc3MlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "name": "champ3",
+    "Time": " 1min ",
+    "date": "21/24",
+    "id": "kjh-fks-eb-fs-f465fsd"
+    
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zml0bmVzcyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "champ4",
+    "Time": " 4min ",
+    "date": "22/26",
+    "id": "28jgk-4564-gfg-4fgg"
+  },
+  {
+    "img": "https://worthstart.com/wp-content/uploads/2019/11/gym-names-idea-main-feature-image.jpg",
+    "name": "champ5",
+    "Time": " 6min ",
+    "date": "22/28",
+    "id": "65456fkj-dfk-oil-54kjd"
+  },
+  {
+    "img": "https://media.istockphoto.com/photos/handsome-man-doing-biceps-lifting-barbell-in-a-gym-side-view-picture-id1287874600?k=20&m=1287874600&s=612x612&w=0&h=yDXjYuIdH_Y0ToMMVY2xqxuGS3jQMjQfvQ_VHs0rnIE=",
+    "name": "champ6",
+    "Time": " 5min ",
+    "date": "19/17",
+    "id": "iou-45525-oij-4kjh-kij-84ui-45"
+
+  }
+  
+  
+]
