@@ -1,7 +1,9 @@
 import React from 'react';
 import './Carts'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Carts = ({cart , getData, breckTime}) => {
+const Carts = ({cart , getData, breckTime }) => {
 
     let time = 0;
 
@@ -14,6 +16,11 @@ const Carts = ({cart , getData, breckTime}) => {
        console.log(cart);
     }
 
+    const tosTyFy = () => {
+
+        toast("Wow so easy!")
+
+    }
   
     
    
@@ -100,9 +107,14 @@ const Carts = ({cart , getData, breckTime}) => {
 
 </div>
 {/* ---------------------------- */}
+
 <div className="">
-<button className="btn btn-primary w-full ">Activity Completed</button>
+<button className="btn btn-primary w-full 
+
+" onClick={tosTyFy}>Activity Completed</button>
 </div>
+<ToastContainer />
+
 </div>
 
 </div>
@@ -112,5 +124,6 @@ const Carts = ({cart , getData, breckTime}) => {
         </div>
     );
 };
+
 
 export default Carts;
