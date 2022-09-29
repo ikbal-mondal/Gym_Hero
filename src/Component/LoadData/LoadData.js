@@ -2,14 +2,15 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Carts from '../../Cart/Carts';
-
+import './LoadData'
 import './LoadData.css'
 
 
 const LoadData = () => {
 
-const [data,setData] = useState([])
-const [cart,setCart] = useState([])
+const [data,setData] = useState([]);
+const [cart,setCart] = useState([]);
+const [breckTime,setBrekTime] = useState(0);
 
 useEffect(() =>{
 
@@ -18,13 +19,32 @@ useEffect(() =>{
     .then(data => setData(data))
 },[])
 
-const handleAddToCart = (data) => {
 
+useEffect( () => {
+
+    const brack = JSON.parse(localStorage.getItem("breakTime"))
+    setBrekTime(brack)
+},[])
+
+
+const handleAddToCart = (data) => {
     // console.log(data);
     const newCart = [...cart , data] 
    setCart(newCart);
+   
+  
 }
 
+
+const getBerkTime = (d) => {
+  
+    d = parseInt(d)
+    setBrekTime(d)
+
+    localStorage.setItem("breakTime", d)
+
+
+}
 
     return (
         <div className="all-cartWrap grid  grid-cols-1 lg:grid-cols-4  mx-auto">
@@ -50,8 +70,8 @@ const handleAddToCart = (data) => {
       
       <div className=' '>
  
-    <Carts carts={data}></Carts>
-
+    <Carts cart={cart} getData={getBerkTime} breckTime={breckTime}></Carts>
+    
 
       </div>
 
@@ -68,7 +88,6 @@ const DisplayData = ({data,handleAddToCart}) => {
     const {img, name,Time,date, } = data;
 
     
-  
 
     return (
       
@@ -79,7 +98,7 @@ const DisplayData = ({data,handleAddToCart}) => {
     <p>Time: {Time}</p>
     <p>date: {date}</p>
     <div className="card-actions justify-end">
-      <button onClick={() =>  handleAddToCart(data)} className="btn btn-primary w-full" >Add to list</button>
+      <button onClick={() => handleAddToCart(data)} className="btn btn-primary w-full" >Add to list</button>
     </div>
     </div>
 

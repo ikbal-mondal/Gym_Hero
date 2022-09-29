@@ -1,9 +1,21 @@
 import React from 'react';
+import './Carts'
 
+const Carts = ({cart , getData, breckTime}) => {
 
-const Carts = ({carts}) => {
+    let time = 0;
 
-    const {data} = carts;
+    for(const data of cart ){
+
+      time = time + data.Time;
+     
+      console.log(data.Time);
+      console.log(time);
+       console.log(cart);
+    }
+
+  
+    
    
     return (
         <div>
@@ -54,10 +66,10 @@ const Carts = ({carts}) => {
 
 <div className="flex bg-slate-200 rounded m-3">
 
-<div className="bg-slate-100 rounded-full p-5 m-2"><span>3s</span></div>
-<div className="bg-slate-100 rounded-full p-5 m-2"><span>6s</span></div>
-<div className="bg-slate-100 rounded-full p-5 m-2"><span>9s</span></div>
-<div className="bg-slate-100 rounded-full p-5 m-2"><span>4s</span></div>
+<div className="bg-slate-100 rounded-full p-5 m-2" onClick={(e) =>getData(e.target.innerText) }><span>3s</span></div>
+<div className="bg-slate-100 rounded-full p-5 m-2" onClick={(e) =>getData(e.target.innerText) }><span>6s</span></div>
+<div className="bg-slate-100 rounded-full p-5 m-2" onClick={(e) =>getData(e.target.innerText) }><span>9s</span></div>
+<div className="bg-slate-100 rounded-full p-5 m-2" onClick={(e) =>getData(e.target.innerText) }><span>4s</span></div>
 
 </div>
 
@@ -72,7 +84,7 @@ const Carts = ({carts}) => {
 <h1>Exercise time</h1>
 </div>
 <div className=" p-3">
-<h2>totalTime:{data}</h2>
+<h2>totalTime:{time}</h2>
 </div>
 
 </div>
@@ -83,7 +95,7 @@ const Carts = ({carts}) => {
 <h1>Break time</h1>
 </div>
 <div className=" p-3">
-<h2>18 seconds</h2>
+<h2> {breckTime} seconds</h2>
 </div>
 
 </div>
