@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Component/Header/Header';
 import LoadData from './Component/LoadData/LoadData';
+import Question from './Component/question/Question';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
    <div className="">
     <Header></Header>
   <LoadData></LoadData>
-  
+  <Question></Question>
    </div>
 
    

@@ -28,7 +28,7 @@ useEffect( () => {
 
 
 const handleAddToCart = (data) => {
-    // console.log(data);
+   
     const newCart = [...cart , data] 
    setCart(newCart);
    
