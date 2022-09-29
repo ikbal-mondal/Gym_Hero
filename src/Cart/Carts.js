@@ -18,7 +18,7 @@ const Carts = ({cart , getData, breckTime }) => {
 
     const tosTyFy = () => {
 
-        toast("Wow so easy!")
+        toast(" Your Activity Completed")
 
     }
   
