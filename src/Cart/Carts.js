@@ -32,8 +32,8 @@ const Carts = ({ cart, getData, breckTime }) => {
               />
             </div>
             <div className="mx-2">
-              <h2> Hello World</h2>
-              <h3>location...</h3>
+              <h2> ikbal Mondal</h2>
+              <h3>India</h3>
             </div>
           </div>
 
@@ -41,21 +41,21 @@ const Carts = ({ cart, getData, breckTime }) => {
             <div className="p-4  mx-1">
               <div className="">
                 <h1 className="text-2xl font-bold">
-                  75 <small className="text-sm">kg</small>
+                  52 <small className="text-sm">kg</small>
                 </h1>
                 <p className="text-1xl font-semibold">Weight</p>
               </div>
             </div>
             <div className="p-4 mx-1">
               <div className="">
-                <h1 className="text-2xl font-bold">7.3</h1>
+                <h1 className="text-2xl font-bold">5.3</h1>
                 <p className="text-1xl font-semibold">Height</p>
               </div>
             </div>
             <div className="p-4 mx-1">
               <div className="">
                 <h1 className="text-2xl font-bold">
-                  45 <small className="text-sm">years</small>
+                  21 <small className="text-sm">years</small>
                 </h1>
                 <p className="text-1xl font-semibold">Age</p>
               </div>

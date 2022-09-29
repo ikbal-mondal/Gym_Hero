@@ -1,5 +1,11 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
 .custom-aline {
     display: flex;
     align-items: center;
-    border-bottom:1px solid gray;
+    background-color: #b9b9b9;
+    border-radius: 31px;
 }
