@@ -60,7 +60,7 @@ const Carts = ({carts}) => {
 <div className="bg-slate-100 rounded-full p-5 m-2"><span>4s</span></div>
 
 </div>
-{/* hkjdfhkdjshfkjdsfhkjsdhfjk */}
+
 
 <div className="">
 <h1 className='text-2xl font-semibold m-2'>Exercise Details</h1>
